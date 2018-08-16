@@ -12,7 +12,7 @@
 </head>
     <?php
 
-echo (" <body style='background-color: $color;' ">)
+echo (" <body bgcolor=$color>");
     echo "welcome $name"
     ?>
 </body>
