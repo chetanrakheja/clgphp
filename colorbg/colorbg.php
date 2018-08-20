@@ -6,14 +6,14 @@
     
     <?php
     $name=$_GET['name'];
-    $color=$_GET['color'];
-    
+    $bgcolor=$_GET['bgcolor'];
+    $fgcolor=$_GET['fgcolor'];
     ?>
 </head>
     <?php
 
-echo (" <body bgcolor=$color>");
-    echo "welcome $name"
+echo (" <body bgcolor=$bgcolor style=color:$fgcolor>");
+    echo "<h1>welcome $name </h1>"
     ?>
 </body>
 </html>
