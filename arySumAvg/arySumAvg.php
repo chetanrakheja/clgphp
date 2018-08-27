@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="../favicon.ico" sizes="16x16" type="image/png">
     <title>Find Sum Avg</title>
     
     <?php
@@ -16,12 +17,15 @@
 </head>
     <?php
     $sum = 0;
+    $count=0;
     foreach($arr as $i)
     {
         $sum+=$i;
+        $count++;
     }
     
-    echo "<h1>Sum is $sum </h1>"
+    echo "<h1>Sum is $sum </h1>";
+    echo "<h1>Avg is ". $sum/$count . " </h1>";
     ?>
 </body>
 </html>
