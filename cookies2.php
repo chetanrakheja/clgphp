@@ -19,16 +19,16 @@ if(isset($_COOKIE[$cookie_name1])) {
 }
 ?>
 
-        <body>
-            <br>
-            <hr>
-            <?php
+
+        <br>
+        <hr>
+        <?php
 if(isset($_COOKIE[$cookie_name])) {
     echo "Your name is " . $_COOKIE[$cookie_name];
 }
 ?>
 
 
-        </body>
+            </body>
 
     </html>
